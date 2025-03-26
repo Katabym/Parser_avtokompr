@@ -54,7 +54,7 @@ def setup_driver_with_cookies():
 
         # Открываю сайт
         logging.info("Открытие сайта https://avtokompromat.ru/...")
-        driver.get('https://avtokompromat.ru/')
+        driver.get('https://avtokompromat.ru/user/logpass.php')
         logging.info("Сайт успешно открыт")
 
         # Если cookies уже сохранены, загружаю их
